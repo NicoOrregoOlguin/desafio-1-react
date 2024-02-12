@@ -1,0 +1,77 @@
+/* Estilos generales */
+body {
+  background-color: #f8f9fa; /* Color de fondo general de la página */
+  font-family: 'Arial', sans-serif; /* Fuente general de la página */
+}
+
+/* Header */
+header {
+  background-color: #fff; /* Color de fondo del header */
+  padding: 2rem 0; /* Espaciado interno del header */
+  margin-bottom: 2rem; /* Separación del header con el contenido siguiente */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil para el header */
+}
+
+/* Contenedor de tarjetas */
+.card-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 0 auto; /* Centrado horizontal */
+  max-width: 1200px; /* Ancho máximo del contenedor */
+  padding: 0 1rem; /* Espaciado interno */
+}
+
+/* Tarjetas */
+.card {
+  width: 18rem; /* Ancho de las tarjetas */
+  margin-bottom: 1rem; /* Espaciado debajo de las tarjetas */
+  border: none; /* Eliminar el borde por defecto */
+  border-radius: 0.25rem; /* Bordes redondeados leves */
+  overflow: hidden; /* Asegurarse que la imagen no sobrepase los bordes redondeados */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidad */
+}
+
+.card img {
+  width: 100%; /* Que la imagen ocupe todo el ancho de la tarjeta */
+  height: auto; /* Altura automática para mantener la proporción de la imagen */
+}
+
+.card-body {
+  padding: 1.25rem; /* Espaciado interno del cuerpo de la tarjeta */
+}
+
+.card-title {
+  font-size: 1.25rem; /* Tamaño de la fuente del título de la tarjeta */
+  margin-bottom: 0.75rem; /* Espaciado debajo del título */
+}
+
+.card-text {
+  font-size: 0.9rem; /* Tamaño de la fuente del texto de la tarjeta */
+  margin-bottom: 1.25rem; /* Espaciado debajo del texto */
+}
+
+/* Estilos para los badges (etiquetas) */
+.badge {
+  font-size: 0.8rem; /* Tamaño de la fuente del badge */
+  padding: 0.5em 0.75em; /* Espaciado interno del badge */
+  border-radius: 1rem; /* Bordes redondeados del badge */
+  width: fit-content; /* El ancho se ajusta al contenido */
+}
+
+/* Footer */
+footer {
+  background-color: #fff; /* Color de fondo del footer */
+  padding: 1rem 0; /* Espaciado interno del footer */
+  margin-top: 2rem; /* Separación del footer con el contenido anterior */
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil para el footer */
+  position: relative; /* Para futuras referencias de posicionamiento */
+  bottom: 0; /* Asegurar que el footer se quede al fondo */
+  width: 100%; /* Que el footer ocupe todo el ancho */
+}
+
+footer p {
+  margin: 0; /* Remover márgenes por defecto */
+  font-size: 0.9rem; /* Tamaño de la fuente del texto del footer */
+}
